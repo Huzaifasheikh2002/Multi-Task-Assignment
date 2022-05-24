@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    text-align: center;
+    border :2px solid rgb(0, 0, 0);
+    height: 180px;
+    
+}
+.btncolor{
+    padding: 10px;
+    margin: 5,10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btncolor:hover{
+    background-color: grey;
+    color: white;
+}
+/* .imgButtons{
+background-color: black;
+color: rgb(187, 180, 180);
+
+} */
+.imgIcon {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.btns {
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: rgb(234, 234, 234);
+    margin: 15px 18px;
+    padding:10px;
+    cursor: pointer;
+    color: rgb(6, 0, 0);
+    width: 100px;
+}
+
+.btns:hover {
+    color: white;
+    background-color: gray;
+}
